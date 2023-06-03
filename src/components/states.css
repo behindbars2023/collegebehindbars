@@ -1,0 +1,32 @@
+.state_item ,.state_content {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.state_item {
+    row-gap: 1.5rem;
+}
+
+.item {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.item:hover {
+    border: 1px solid orange;
+}
+
+.item h4 {
+    margin-bottom: 5px;
+}
+.item h1 {
+    margin-bottom: 0;
+    color: orange;
+}
