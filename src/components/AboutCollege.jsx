@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import MakeDonation from "./makeDonation";
 import States from "./states";
 
+
 // Email Config
 import { useRef } from 'react';
 import emailjs from 'emailjs-com';
@@ -41,7 +42,7 @@ const AboutCollege = () => {
                         <p>
                             The idea behind this initiative  is to prepare the ‘less adequate’ for the world outside,
                             to make inmates employable through  rehabilitation  and redirecting their paths towards social inclusion and  productivity,  contributing to the development of their societies and ipso facto enhancing the role of prisons in national development.
-                        </p>
+                        </p>                        
 
 
                         <h1 className="sub_heading">Why It Matters</h1>
@@ -58,8 +59,7 @@ const AboutCollege = () => {
                         <p>During the full-time technical curriculum, student inmates spend 6 to 9 months learning the most in-demand skills in web development, developing thier technical skills, building projects, from simple scripts to full web apps and deployed systems, improving the skills they need to excel in the global job marke</p>
 
                         <h3 className="sub_heading">Career-readiness</h3>
-                        <p>The class includes dedicated lectures on CV writing, presentation and public speaking. Students are also introduced to relevant technology-facing career paths by guest lecturers. They  learn where to find jobs, how to do great interviews, and the best strategies to launch your career.
-                        </p>
+                        <p>The class includes dedicated lectures on CV writing, presentation and public speaking. Students are also introduced to relevant technology-facing career paths by guest lecturers. They  learn where to find jobs, how to do great interviews, and the best strategies to launch your career.</p>
 
 
                         <br />

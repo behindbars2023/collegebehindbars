@@ -4,7 +4,9 @@ import MainHeader from "./MainHeader";
 import About from "./About"
 import HowItWorks from "./HowItWorks"
 import Challenges from "./Challenges"
+import FormCustom from "./FormCustom"
 import Testimonials from "./Testimonials";
+import Sample from "./Sample";
 import Partners from "./Partners";
 import Sponsore from "./Sponsore";
 import Programs from "./Programs"
@@ -17,14 +19,15 @@ const Home = () => {
             <Navbar />
             <MainHeader />
             <About />
-            <HowItWorks />
+            {/* <HowItWorks /> */}
             <Programs />
-            <Challenges />
-            <Donate />
+            <Sample />
+            {/* <Challenges /> */}
+            <Partners />
             <Testimonials />
             <Sponsore />
-            <Partners />
-            <Footer />
+            <FormCustom />
+            <Footer />            
         </div>
     )
 }

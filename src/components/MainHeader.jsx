@@ -57,7 +57,7 @@ const MainHeader = () =>{
 
         <>
         <Header style= {{ transform: `translate3d(${-index * 100}%, 0, 0)` }} title = {title} image={image}> 
-        <i>{subtitle}</i> 
+        <p>{subtitle}</p> 
         </Header>
         </>
     )

@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap'); 
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100,200,300,400,500,600,700,800,900&display=swap'); 
+body { 
+/* CSS Variables that may have been missed get put on body */ 
+    --bs-gutter-x:  1.5rem;  
+    --bs-gutter-y:  0;  
+} 
+
+* { 
+    box-sizing: border-box;
+} 
+
+@media (min-width: 768px){ 
+  section { 
+    padding: 9rem 0;
+  } 
+}     
+
+.bg-light { 
+    background-color: #f2f4f4 !important;
+} 
+
+.page-section { 
+    padding: 6rem 0;
+} 
+
+body { 
+    margin:  0; 
+    font-family:  "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
+    font-size:  1.4rem; 
+    font-weight:  400; 
+    line-height:  1.5; 
+    color:  #212529; 
+    background-color:  #fff; 
+    -webkit-text-size-adjust:  100%; 
+    -webkit-tap-highlight-color:  rgba(0, 0, 0, 0);
+    position: relative; 
+    overflow-x: hidden;
+} 
+
+html { 
+    scroll-padding-top: 4.5rem;
+} 
+
+@media (prefers-reduced-motion: no-preference){ 
+  :root { 
+    scroll-behavior: smooth;
+  } 
+}     
+
+.container { 
+    width: 100%; 
+    padding-right: var(--bs-gutter-x, 0.75rem); 
+    padding-left: var(--bs-gutter-x, 0.75rem); 
+    margin-right: auto; 
+    margin-left: auto;
+} 
+
+@media (min-width: 576px){ 
+  .container { 
+    max-width: 540px;
+  } 
+}     
+
+@media (min-width: 768px){ 
+  .container { 
+    max-width: 720px;
+  } 
+}     
+
+@media (min-width: 992px){ 
+  .container { 
+    max-width: 960px;
+  } 
+}     
+
+@media (min-width: 1200px){ 
+  .container { 
+    max-width: 1140px;
+  } 
+}     
+
+*,:before,:after { 
+    box-sizing: border-box;
+} 
+
+.text-center { 
+    text-align: center !important;
+} 
+
+.row { 
+    --bs-gutter-x: 1.5rem; 
+    --bs-gutter-y: 0; 
+    display: flex; 
+    flex-wrap: wrap; 
+    margin-top: calc(var(--bs-gutter-y) * -1); 
+    margin-right: calc(var(--bs-gutter-x) * -.5); 
+    margin-left: calc(var(--bs-gutter-x) * -.5);
+} 
+
+h3 { 
+    margin-top:  0; 
+    margin-bottom:  0.5rem; 
+    font-family:  "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
+    font-weight:  700; 
+    line-height:  1.2;
+    font-size: calc(1.3rem + 0.6vw);
+} 
+
+@media (min-width: 1200px){ 
+  h3 { 
+    font-size: 1.75rem;
+  } 
+}     
+
+.text-uppercase { 
+    text-transform: uppercase !important;
+} 
+
+.row > *  { 
+    flex-shrink: 0; 
+    width: 100%; 
+    max-width: 100%; 
+    padding-right: calc(var(--bs-gutter-x) * .5); 
+    padding-left: calc(var(--bs-gutter-x) * .5); 
+    margin-top: var(--bs-gutter-y);
+} 
+
+@media (min-width: 576px){ 
+  .col-sm-6 { 
+    flex: 0 0 auto; 
+    width: 50%;
+  } 
+}     
+
+@media (min-width: 992px){ 
+  .col-lg-4 { 
+    flex: 0 0 auto; 
+    width: 33.33333333%;
+  } 
+}     
+
+.mb-4 { 
+    margin-bottom: 1.5rem !important;
+} 
+
+.portfolio-item  { 
+    max-width: 26rem; 
+    margin-left: auto; 
+    margin-right: auto;
+} 
+
+a { 
+    color: #ff9c33; 
+    text-decoration: none;
+} 
+
+.portfolio-item .portfolio-link  { 
+    position: relative; 
+    display: block; 
+    margin: 0 auto;
+} 
+
+a:hover { 
+    color: #fe8e18;
+} 
+
+.portfolio-item .portfolio-caption  { 
+    padding: 1.5rem; 
+    text-align: center; 
+    background-color: #fff; 
+    border-radius: 10px;
+} 
+
+.portfolio-item .portfolio-link .portfolio-hover  { 
+    display: flex; 
+    position: absolute; 
+    width: 100%; 
+    height: 100%; 
+    background: rgba(33, 37, 41, 0.8); 
+    align-items: center; 
+    justify-content: center; 
+    opacity: 0; 
+    transition: opacity ease-in-out 0.25s; 
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+} 
+
+.portfolio-item .portfolio-link:hover .portfolio-hover  { 
+    opacity: 1;
+} 
+
+img { 
+    vertical-align: middle;
+} 
+
+.img-fluid { 
+    max-width: 100%; 
+    height: auto;
+} 
+
+.portfolio-item .portfolio-link img  { 
+    border-top-left-radius: 10px; 
+    border-top-right-radius: 10px;
+} 
+
+.portfolio-item .portfolio-caption .portfolio-caption-heading  { 
+    font-size: 1.5rem; 
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; 
+    font-weight: 700; 
+    margin-bottom: 0;
+} 
+
+.text-muted { 
+    color: #6c757d !important;
+} 
+
+.portfolio-item .portfolio-caption .portfolio-caption-subheading  { 
+    font-style: italic; 
+    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+} 
+
+.portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content  { 
+    font-size: 1.25rem; 
+    color: white;
+} 
+
+.svg-inline--fa { 
+    display: inline-block; 
+    font-size: inherit; 
+    height: 1em; 
+    overflow: visible; 
+    vertical-align: -.125em;
+} 
+
+.fa-3x { 
+    font-size: 3em;
+} 
+
+.svg-inline--fa.fa-w-14 { 
+    width: .875em;
+} 
+
+svg:not(:root).svg-inline--fa { 
+    overflow: visible;
+} 
+
+
+/* These were inline style tags. Uses id+class to override almost everything */
+#style-qczPk.style-qczPk {  
+   margin-top:50px;  
+}  
+#style-1SoXb.style-1SoXb {  
+   margin-top:40px;  
+}  

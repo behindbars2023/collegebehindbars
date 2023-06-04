@@ -10,10 +10,6 @@ export const links = [
     {
         name: "Home",
         path: '/'
-    },
-    {
-        name: "About",
-        path: "/about-college"
     },   
 ]
 
@@ -84,8 +80,8 @@ export const testimonials = [
         avatar: require("./images/avatar2.jpg")
     },
     {
-        id: 3,
-        name: "Amber Mulit",
+        id: 4,
+        name: "Anna Huiy",
         quote: "Before I realized it I had my own website that I coded, built, and designed myself.",
         job: "Software Enginneer, Nairobi Kenya 🇰🇪",
         avatar: require("./images/avatar4.jpeg")

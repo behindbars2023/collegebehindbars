@@ -92,23 +92,27 @@ section{
   font-size: 2rem;
 }
 
+.img-custom {
+  border-radius: 10px;
+  margin: 2rem 0;
+}
 
 .card2{
   background: transparent;
-  border: 2px solid;
+  border: 2px solid var(--color-orange);
   text-align: center;
   padding: 2rem 1rem;
   border-radius: 0 2.5rem 0 2.5rem;
   transition: var(--transition);
 }
 .card2:hover{
-  border-color: #e04545;;
+  border-color: #ff8716;
   cursor: default;
   background: transparent;
 }
 
 .card2:hover h4{
-  color: var(--color-gray-500);
+  /* color: var(--color-gray-500); */
 }
 
 .card2 span{
@@ -156,7 +160,7 @@ section{
   color: var(--color-gray-200);
   margin-top: 5rem;
   margin-bottom: 1rem;
-  border: 2px solid #aa7f3e;
+  border: 2px solid #ff8716;
   text-align: center;
   padding: 2rem 1rem;
   border-radius: 0 3rem 0 3rem;
@@ -176,7 +180,7 @@ section{
 }
 
 .header__content h1{
-  color: #aa7f3e;
+  color: #ff8716;
 }
 
 .header__content h4:hover{
@@ -205,6 +209,30 @@ section{
   }
 }
 
+/* SAMPLE */
+.sample {
+  margin: 4rem 0;
+}
+
+
+/* FORM */
+.p-form {
+  margin: 6rem 0;
+}
+.form-head {
+  margin: 0 2rem;
+}
+.form-head h1, .form-head h4 {
+  margin-bottom: 1rem;
+}
+.sl {
+  border: 2px solid var(--color-secondary);
+  padding: 20px 20px;
+  border-radius: 10px;
+}
+.btnStart {
+  border-radius: 7px;
+}
 
 /* ======MEDIA QUERIES (MEDIUM DEVICES) ======= */
 @media screen and (max-width: 1024px) {

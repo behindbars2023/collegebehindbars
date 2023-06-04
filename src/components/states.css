@@ -2,7 +2,7 @@
     display: grid;
     justify-content: center;
     align-items: center;
-    margin: 2rem 0;
+    margin: 0rem 0 1.5rem 0;
 }
 
 .state_item {
@@ -15,18 +15,19 @@
     justify-content: center;
     align-items: center;
     padding: 1rem 2rem;
-    border: 1px solid black;
+    border: 1px solid rgb(126, 126, 126);
     border-radius: 10px;
 }
 
 .item:hover {
-    border: 1px solid orange;
+    border: 1px solid #ff8716;
 }
 
 .item h4 {
+    color: black;
     margin-bottom: 5px;
 }
 .item h1 {
     margin-bottom: 0;
-    color: orange;
+    color: #ff8716;
 }
