@@ -14,8 +14,8 @@
   --gray-hue: 150;
   --color-primary: hsl(var(--primary-hue), 80%, 40%);
   --color-primary-variant: hsl(var(--primary-hue), 100%, 65%);
-  --color-secondary: #013220;
-  --color-orange: #e04545;
+  --color-secondary: #03105c;
+  --color-orange: #03105c;
 
   --color-gray-100: hsl(var(--gray-hue), 47%, 94%);
   --color-gray-200: hsl(var(--gray-hue), 26%, 75%);
@@ -33,7 +33,7 @@
 body{
   font-family: 'Poppins', sans-serif;
   background: var(--color-gray-100);
-  color: var(--color-gray-500);
+  /* color: var(--color-gray-500); */
   line-height: 1.7;
   overflow-x: hidden;
 }
@@ -114,7 +114,7 @@ section{
 .card2 span{
   width: 3rem;
   height: 3rem;
-  background: var(--color-gray-500);
+  background: var(--color-secondary);
   color: var(--color-gray-100);
   font-size: 1.5rem;
   padding: 0.8rem;
@@ -127,7 +127,7 @@ section{
 }
 .card2:hover span{
   background: var(--color-orange);
-  color: var(--color-gray-600);
+  /* color: var(--color-gray-600); */
 }
 
 
@@ -163,6 +163,16 @@ section{
   transition: var(--transition);
 
   /* text-transform: uppercase; */
+}
+
+.card:hover {
+  color: #245c40;
+  color: var(--color-gray-500);
+  cursor: default;
+}
+.__tl {
+  color: #ff8716;
+  line-height: 1.2;
 }
 
 .header__content h1{
@@ -223,3 +233,51 @@ section{
       margin-top: 3rem;
  }
 } 
+
+
+/* ======MEDIA QUERIES (MEDIUM DEVICES) ======= */
+@media screen and (max-width: 1024px) {
+  .container{
+      width: var(--container-width-md);
+  }
+  h1{
+      font-size: 2rem;
+  }
+  h2{
+      font-size: 1.6rem;
+  }
+  .header2__content{
+      width: 76%;
+  }
+  .header__content{
+      width: 76%;
+  }
+}
+
+
+/* ======MEDIA QUERIES (SMALL DEVICES) ======= */
+@media screen and (max-width: 600px) {
+ h1{
+      font-size: 2.2rem;
+      line-height: 1.3;
+ }
+ section{
+      margin-top: 5rem;
+ }
+ .header2{
+      height: fit-content;
+      margin-top: 4rem;
+  }
+ .header2__content{
+      width: var(--container-width-lg);
+      padding: 3rem 0;
+ }
+ .header2__content p{
+      font-size: 0.85rem;
+ }
+ .btnYoutube{
+  padding: 2rem 1rem;
+  border-radius: 0 3rem 0 3rem;
+ }
+} 
+

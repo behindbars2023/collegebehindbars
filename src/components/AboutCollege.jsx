@@ -69,7 +69,7 @@ const AboutCollege = () => {
 
                         <br />
 
-                        <h3 className="dontate__physical-items">For Physical items like food, computers, and computer accessories, please fill out the form below and  a Grassroot ambassador will get in touch</h3>
+                        <h3 className="dontate__physical-items">For Physical items like food, computers, and computer accessories, please fill out the form below and  a CBB ambassador will get in touch</h3>
 
 
                         <form ref={form} onSubmit={sendEmail}>

@@ -60,3 +60,34 @@ export const programs = [
     },
 ]
 
+
+export const testimonials = [
+    {
+        id: 1,
+        name: "Anna Lisberg",
+        quote: "This is a step in the right direction.  I want to show my kids that their father is going above and beyond in trying to come home, I went from solitary confinement to being in a College course for software development.  Who would have thought?",
+        job: "Retrocube Technologies, Colorado, USA 🇺🇸",
+        avatar: require("./images/avatar3.jpg")
+    },
+    {
+        id: 2,
+        name: "Lucas Khune",
+        quote: "When i get out there,  i wouldn't let the labels get me down,Ex Convict, Ex Prisoner ! No. A software developer & Graduate. That’s who I am.",
+        job: " System Analyst At Synthesis Software Technologies . Johannesburg South Africa 🇿🇦",
+        avatar: require("./images/avatar1.jpg")
+    },
+    {
+        id: 3,
+        name: "Amber Mulit",
+        quote: "I feel like I have a whole new area of jobs that I am qualified for and that is a wonderful new insight.",
+        job: "Junior Web Engineer At BlueChip Solutions, Nairobi Kenya 🇰🇪",
+        avatar: require("./images/avatar2.jpg")
+    },
+    {
+        id: 3,
+        name: "Amber Mulit",
+        quote: "Before I realized it I had my own website that I coded, built, and designed myself.",
+        job: "Software Enginneer, Nairobi Kenya 🇰🇪",
+        avatar: require("./images/avatar4.jpeg")
+    },
+]

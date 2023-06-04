@@ -13,7 +13,7 @@ const Challenges = () => {
                 <p> The biggest challenges confronted by inmates in their learning is the Lack of adequate feeding while enrolled.</p>
                 <p>The inmates reported varying experiences from lack of full prisons support in learning, 
                     lack of teachers coupled with hunger and starvation as main hindrances.</p>
-                <p>Grassroot is a non profit NGO, we rely on donations from kind hearted individuals, organizations and governments to survive. </p>
+                <p>CBB is a non profit NGO, we rely on donations from kind hearted individuals, organizations and governments to survive. </p>
             </div>
             <div className='about__Vision-image'>
                 <img src={challengesImage} alt='About Us' />

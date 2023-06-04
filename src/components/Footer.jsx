@@ -18,11 +18,11 @@ const Footer = () => {
             </article>
             <article>
                 <h4> Contact Us</h4>
-                <a href='mailto:Management@grassroot.academy' target='_blank' rel='noreferrer noopener'>Send Us A Mail</a>
+                <a href='mailto:Management@collegebehindbars.org' target='_blank' rel='noreferrer noopener'>Send Us A Mail</a>
             </article>
         </div>
         <div className="footer__copyright">
-            <small>Grassroot Theme Powered by: Grassroot Software Academy</small>
+            <small>CBB Theme Powered by: Grassroot Software Academy</small>
         </div>
     </footer>
   )
