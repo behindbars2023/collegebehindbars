@@ -11,10 +11,10 @@ const Footer = () => {
                     <img src={Logo} alt="Footer Logo"/>
                 </Link>
                 <p>
-                We believe it's time for mother Africa to rise. Our mission is to achieve the goal in 
-                training 1 million young Africans in advanced Software Enginering courses and connect them to a 
-                network of remote employers home and abroad. To accelerate the Digital revolution in Africa and lift lives out of poverty .
+                The benefits of education for prisoners are well established.
                 </p>                       
+                <p> It gives them the opportunity to broaden their knowledge and acquire new skills that will facilitate their sustainable (re)integration into the labour market and society, while, at the same time, reducing recidivism and the attendant economic and social costs.</p>
+                <p> Yet prisoners’ education remains overlooked and under-valued. We are in conversation with local universities and national tech companies about offering college credit or entry-level jobs to future graduates.</p>
             </article>
             <article>
                 <h4> Contact Us</h4>

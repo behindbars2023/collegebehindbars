@@ -34,7 +34,7 @@
 .about__Vision-container{
     display: grid;
     grid-template-columns: 45% 45%;
-    gap: 10%;
+    gap: 4rem;
 }
 
 .about-heading {
@@ -203,6 +203,18 @@ input,textarea{
     align-items: center;
     gap: 1rem;
 }
+
+@media screen and (max-width: 500px) {
+    .section__head, .section__head2{
+        display: grid;
+        align-items: center;
+        gap: 1rem;
+    }
+    .programs {
+        padding: 1rem 0;
+    }
+}
+
 .section__head span, .section__head2 span{
     padding: 0.8rem;
     border-radius: 1rem;
@@ -363,7 +375,7 @@ footer{
         grid-row: 1;
     }
     .about__Vision-image{
-        width: 80%;
+        /* width: 80%; */
         margin-inline: auto;
     }
     .programs__wrapper{
@@ -399,7 +411,6 @@ footer{
         background-color: #fff;
     }
     .about__Vision-image{
-        width: 80%;
         margin-inline: auto;
     }
     .about__Vision-container{

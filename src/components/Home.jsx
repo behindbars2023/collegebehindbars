@@ -20,8 +20,8 @@ const Home = () => {
             <MainHeader />
             <About />
             {/* <HowItWorks /> */}
-            <Programs />
             <Sample />
+            <Programs />
             {/* <Challenges /> */}
             <Partners />
             <Testimonials />

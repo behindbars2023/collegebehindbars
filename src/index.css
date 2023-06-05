@@ -65,7 +65,7 @@ a{
   color: #419aee;
 }
 a:hover{
-  color: var(--color-secondary);
+  color: #ff8716;
 }
 
 img{
@@ -73,6 +73,11 @@ img{
   width: 100%;
   object-fit: cover;
 }
+
+.abt-image-first {
+  width: 100%;
+}
+
 section{
   margin-top: 7rem;
 }
@@ -94,6 +99,11 @@ section{
 
 .img-custom {
   border-radius: 10px;
+  margin: 2rem 0;
+}
+.img-custom-border {
+  max-width: 300px;
+  border-radius: 20px;
   margin: 2rem 0;
 }
 
@@ -212,8 +222,14 @@ section{
 /* SAMPLE */
 .sample {
   margin: 4rem 0;
+  padding-left: 0;
+  padding-right: 0;
 }
-
+.sample-cta {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 /* FORM */
 .p-form {
