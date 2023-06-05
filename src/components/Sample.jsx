@@ -5,6 +5,7 @@ import funnycat from "../images/funnycat.png"
 import dash from "../images/dash.jpg"
 import calc from "../images/calc.png"
 import why from "../images/whynow.png"
+import book from "../images/book.jpg"
 
 const Sample = () => {
     return (
@@ -16,7 +17,7 @@ const Sample = () => {
                         <br />
                     </div>
                     <div class="row snipcss0-1-1-4 style-EK1AK" id="style-EK1AK">
-                        <div class="col-lg-4 col-sm-6 mb-4 snipcss0-2-4-5">
+                        {/* <div class="col-lg-4 col-sm-6 mb-4 snipcss0-2-4-5">
                             <div class="portfolio-item snipcss0-3-5-6">
                                 <a class="portfolio-link snipcss0-4-6-7" data-bs-toggle="modal" href="#">
                                     <div class="portfolio-hover snipcss0-5-7-8">
@@ -31,8 +32,8 @@ const Sample = () => {
                                     <div class="portfolio-caption-subheading text-muted snipcss0-5-12-14">Awesome Cat Website</div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-4 col-sm-6 mb-4 snipcss0-2-4-5">
+                        </div> */}
+                        {/* <div class="col-lg-4 col-sm-6 mb-4 snipcss0-2-4-5">
                             <div class="portfolio-item snipcss0-3-5-6">
                                 <a class="portfolio-link snipcss0-4-6-7" data-bs-toggle="modal" href="#">
                                     <div class="portfolio-hover snipcss0-5-7-8">
@@ -47,20 +48,20 @@ const Sample = () => {
                                     <div class="portfolio-caption-subheading text-muted snipcss0-5-12-14">Women in recovery</div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                         <div class="col-lg-4 col-sm-6 mb-4 snipcss0-2-4-15">
                             <div class="portfolio-item snipcss0-3-15-16">
-                                <a class="portfolio-link snipcss0-4-16-17" data-bs-toggle="modal" href="#">
+                                <a class="portfolio-link snipcss0-4-16-17" data-bs-toggle="modal" href="https://gregolive.github.io/library/?title=&author=&pages=">
                                     <div class="portfolio-hover snipcss0-5-17-18">
                                         <div class="portfolio-hover-content snipcss0-6-18-19"><svg class="svg-inline--fa fa-plus fa-w-14 fa-3x snipcss0-7-19-20" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="plus" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg="">
                                             <path fill="currentColor" d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"></path>
                                         </svg></div>
                                     </div>
-                                    <img class="img-fluid snipcss0-5-17-21" src={domestic} alt="..."></img>
+                                    <img class="img-fluid snipcss0-5-17-21" src={book} alt="..."></img>
                                 </a>
                                 <div class="portfolio-caption snipcss0-4-16-22">
-                                    <div class="portfolio-caption-heading snipcss0-5-22-23">Stop Domestic Violence</div>
-                                    <div class="portfolio-caption-subheading text-muted snipcss0-5-22-24">There's Always Help</div>
+                                    <div class="portfolio-caption-heading snipcss0-5-22-23">An awesome online library app</div>
+                                    <div class="portfolio-caption-subheading text-muted snipcss0-5-22-24">Click here to visit the website</div>
                                 </div>
                             </div>
                         </div>
