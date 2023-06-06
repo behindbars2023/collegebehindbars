@@ -107,6 +107,11 @@ section{
   margin: 2rem 0;
 }
 
+.h1-custom-color{
+  margin: 0 0 1rem 0;
+  color: #ff8716;
+}
+
 .card2{
   background: transparent;
   border: 2px solid var(--color-orange);

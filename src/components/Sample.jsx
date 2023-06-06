@@ -13,6 +13,11 @@ const Sample = () => {
             <div className='sample-cta'>
                 <div class="container snipcss0-0-0-1 snipcss-183si style-qhdC9 sample" id="style-qhdC9">
                     <div class="text-center snipcss0-1-1-2">
+                        <h1 className='h1-custom-color'>Capstone project</h1>
+                        <p>Students apply the taught material to build a website centered on addressing challenges to affect social impact in their communities</p>
+                        <br />
+                    </div>
+                    <div class="text-center snipcss0-1-1-2">
                         <h1>Sample capstone projects</h1>
                         <br />
                     </div>

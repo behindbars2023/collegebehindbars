@@ -9,7 +9,7 @@ const Programs = () => {
     return (
         <section className='programs'>
             <div className='container programs_container'>
-                <SectionHead icon= {<GiGraduateCap />} title = "Students apply the taught material to build a website centered on addressing challenges to affect social impact in their communities. Topics include domestic violence and addiction." />
+                <SectionHead icon= {<GiGraduateCap />} title = "At CBB, student inmates learn skills high in the demand in the global job market, effectively doubling thier chances of getting employed  upon release from prison." />
             
                 <div className='programs__wrapper'>
                     {
