@@ -43,7 +43,7 @@ const FormCustom = () => {
 
     return (
         <>
-            <div className="p-form">
+            <div className="p-form" id='contact'>
                 <div className="form-head">
                     <h1>CONTACT US</h1>
                     <h4>We would love to hear from you! </h4>

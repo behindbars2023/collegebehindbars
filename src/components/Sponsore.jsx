@@ -4,7 +4,7 @@ import logo2 from '../images/logo2.png'
 const Sponsore = () => {
     return (
         <>
-            <div className="sponsors">
+            <div className="sponsors" id='sponsors'>
                 <h1>SPONSORS</h1>
                 <div className="sponsors_logos">
                 </div>

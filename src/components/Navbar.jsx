@@ -20,7 +20,7 @@ const Navbar = () => {
             links.map(({name, path}, index) =>{
               return(
                 <li key={index}>
-                  <NavLink to={path} className={({isActive})=> isActive  ? 'active-nav' : ' ' } onClick={()=> setIsNavShowing(prev => !prev)}>{name} </NavLink>
+                  <a href={path} className={({isActive})=> isActive  ? 'active-nav' : ' ' } onClick={()=> setIsNavShowing(prev => !prev)}>{name} </a>
                 </li>
               )
             })

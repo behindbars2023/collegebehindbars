@@ -18,7 +18,7 @@ const About = () => {
 
                 <div className='container about__Vision-container'>
 
-                    <div className='about__section-content'>
+                    <div className='about__section-content' id="about">
                         <h1> About Us</h1>
                         <p>
                             CBB is A web development and career-readiness program for incarcerated Africans  taught by software engineers from Grassroot software academy in collaboration  with PhD students from Universities home and abroad, online and in-person, Together, our students develop skills in digital literacy, web design, and career-readiness, building web applications to help address some of society's most pressing issues. We currently work in three African countries with plans to scale.</p>
@@ -28,7 +28,7 @@ const About = () => {
 
                     </div>
 
-                    <div className='about__section-content'>
+                    <div className='about__section-content' id='why_it_matters'>
                         <h1>Why It Matters</h1>
                         <p>Africa has the highest incarceration rate in the world,  These high rates are partly caused by recidivism: those who are released from prison almost always return. Educational programs have been shown to drastically reduce recidivism, but educational opportunities fall below demand and often don't equip students with employable skills. At College Behind Bars, we address this challenge by helping incarcerated people develop the technical skills and self-efficacy needed to thrive post-release.
                         </p>
@@ -37,7 +37,7 @@ const About = () => {
 
                     <States />
 
-                    <div className='about__section-content'>
+                    <div className='about__section-content' id='curriculum'>
                         <h1>CURRICULUM</h1>
                         <p>College behind Bars is designed to teach incarcerated students  the most in-demand skills in web development, developing thier technical skills, building projects, from simple scripts to full web apps and deployed systems, improving the skills they need to excel in the global job market. It has three main parts: core technical skills, career-readiness, and a capstone project.</p>
                         <img src={abt3} className="img-custom" alt="" /> 

@@ -2,7 +2,7 @@
 const Partners = () => {
     return (
         <>
-            <div className="sponsors">
+            <div className="sponsors" id="partners">
                 <h1>PARTNERS</h1>              
                 <div className='partners_cta sponsors_description'>
                     <h3>GRASSROOT  ACADEMY </h3>

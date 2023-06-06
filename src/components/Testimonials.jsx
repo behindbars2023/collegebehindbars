@@ -53,7 +53,7 @@ const Testimonials = () => {
 
 
   return (
-        <section className="testimonials">
+        <section className="testimonials" id="testimonials">
             <div className="container testimonials__container">
                 <SectionHead icon ={<ImQuotesLeft /> } title = "Testimonials" className="testimonials__head"/>
                 <Card className='testimonial'  style={{ transform: `translate3d(${-index * 100}%, 0, 0)` }}>

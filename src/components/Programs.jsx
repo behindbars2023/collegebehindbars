@@ -8,7 +8,7 @@ import Card from './Card2'
 const Programs = () => {
     return (
         <section className='programs'>
-            <div className='container programs_container'>
+            <div className='container programs_container' id='programs'>
                 <SectionHead icon= {<GiGraduateCap />} title = "At CBB, student inmates learn skills high in the demand in the global job market, effectively doubling thier chances of getting employed  upon release from prison." />
             
                 <div className='programs__wrapper'>

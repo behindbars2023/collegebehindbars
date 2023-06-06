@@ -10,7 +10,43 @@ export const links = [
     {
         name: "Home",
         path: '/'
-    },   
+    }, 
+    {
+        name: "About",
+        path: '#about'
+    }, 
+    {
+        name: "Why It Matters",
+        path: '#why_it_matters'
+    },
+    {
+        name: "Curriculum",
+        path: '#curriculum'
+    },
+    {
+        name: "Capstone project",
+        path: '#c_project'
+    },  
+    {
+        name: "Programs",
+        path: "#programs"
+    },
+    {
+        name: "Partners",
+        path: "#partners"
+    },
+    {
+        name: "Testimonials",
+        path: "#testimonials"
+    },
+    {
+        name: "Sponsors",
+        path: "#sponsors"
+    },
+    {
+        name: "Contact Us",
+        path: "#contact"
+    }  
 ]
 
 export const programs = [
