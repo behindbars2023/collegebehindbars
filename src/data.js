@@ -9,43 +9,43 @@ import {DiNodejs} from 'react-icons/di'
 export const links = [
     {
         name: "Home",
-        path: '/'
+        path: 'root'
     }, 
     {
         name: "About",
-        path: '#about'
+        path: 'about'
     }, 
     {
         name: "Why It Matters",
-        path: '#why_it_matters'
+        path: 'why_it_matters'
     },
     {
         name: "Curriculum",
-        path: '#curriculum'
+        path: 'curriculum'
     },
     {
         name: "Capstone project",
-        path: '#c_project'
+        path: 'c_project'
     },  
     {
         name: "Programs",
-        path: "#programs"
+        path: "programs"
     },
     {
         name: "Partners",
-        path: "#partners"
+        path: "partners"
     },
     {
         name: "Testimonials",
-        path: "#testimonials"
+        path: "testimonials"
     },
     {
         name: "Sponsors",
-        path: "#sponsors"
+        path: "sponsors"
     },
     {
         name: "Contact Us",
-        path: "#contact"
+        path: "contact"
     }  
 ]
 

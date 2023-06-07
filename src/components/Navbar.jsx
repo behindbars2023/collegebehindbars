@@ -9,6 +9,18 @@ import "./navbar.css"
 const Navbar = () => {
   const [isNavShowing, setIsNavShowing] = useState(false);
 
+  // method to jump to the desired element by using the element's id
+const jumpToReleventDiv = (id) => {
+  const releventDiv = document.getElementById(id);
+  // behavior: "smooth" parameter for smooth movement
+  releventDiv.scrollIntoView({behavior: "smooth"});
+  setIsNavShowing(prev => !prev)
+}
+
+  function func(path) { 
+    document.querySelector(`${path}`).scrollIntoView()
+   }
+
   return (
     <nav>
       <div className="container nav__container">
@@ -19,8 +31,8 @@ const Navbar = () => {
           {
             links.map(({name, path}, index) =>{
               return(
-                <li key={index}>
-                  <a href={path} className={({isActive})=> isActive  ? 'active-nav' : ' ' } onClick={()=> setIsNavShowing(prev => !prev)}>{name} </a>
+                <li key={index} className="nav-li">
+                  <a className={({isActive})=> isActive  ? 'active-nav' : ' ' } onClick={()=> jumpToReleventDiv(path)}>{name} </a>
                 </li>
               )
             })
