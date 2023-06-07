@@ -115,7 +115,7 @@ section{
 .img-custom-border {
   max-width: 300px;
   border-radius: 20px;
-  margin: 2rem 0;
+  margin: 2rem 0 0.3rem 0;
 }
 
 .h1-custom-color{
@@ -204,7 +204,11 @@ section{
   color: #ff8716;
   line-height: 1.2;
 }
-
+.sponsors-img {
+  margin-bottom: 2rem;
+  display: grid;
+  justify-content: center;
+}
 .header__content h1{
   color: #ff8716;
 }
@@ -291,6 +295,9 @@ section{
  }
  section{
       margin-top: 3rem;
+ }
+ .vp-center {
+   justify-content: left;
  }
 } 
 
