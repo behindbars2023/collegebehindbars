@@ -1,5 +1,6 @@
 import logo1 from '../images/logo1.jpg'
 import logo2 from '../images/logo2.png'
+import spon from '../images/spon.jpg'
 
 const Sponsore = () => {
     return (
@@ -12,6 +13,7 @@ const Sponsore = () => {
                     <p>We are incredibly grateful for our sponsors, who make our work possible. For Now, Grassroot Academy  and The PBS learning foundation are the only support systems we have  without which our work will not be possible </p>
                     <img src={logo1} className="img-custom-border" alt="" />
                     <img src={logo2} className="img-custom-border" alt="" />
+                    <img src={spon} className="img-custom-border" alt="" />
                     <br />
                     <p>We hereby solicit support from agencies, companies and individuals.</p>
                     <br />

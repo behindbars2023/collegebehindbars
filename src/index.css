@@ -100,7 +100,14 @@ section{
   color: var(--color-secondary);
   font-size: 2rem;
 }
-
+.text-box-custom {
+  padding: 2rem 1.5rem 1rem 1.5rem;
+  border: 5px solid #ff8716;
+  color: #ff8716;
+  border-radius: 10px;
+  background-color: var(--color-orange);
+  margin-bottom: 2.5rem;  
+}
 .img-custom {
   border-radius: 10px;
   margin: 2rem 0;
