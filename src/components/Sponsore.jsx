@@ -15,9 +15,9 @@ const Sponsore = () => {
                     <img src={logo2} className="img-custom-border" alt="" />
                     <img src={spon} className="img-custom-border" alt="" />
                     <br />
-                    <p>We hereby solicit support from agencies, companies and individuals.</p>
+                    <p>We  solicit support from agencies, companies and individuals.</p>
                     <br />
-                    <p>We dream of a day where no one in Africa lack access to high quality technical education. Our hope is for a world where each of us gets an opportunity to quality education  no matter our situations in life.</p>
+                    <p>Our dream is for  a day where no one in Africa will lack access to high quality technical education no matter thier situation in life.</p>
                     <br />
                     <h5>And your support fuels the Effort </h5>
                 </div>
