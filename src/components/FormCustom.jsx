@@ -4,28 +4,30 @@ import emailjs from 'emailjs-com';
 
 
 const FormCustom = () => {
-   
+    const [isPopupOpen, setPopupOpen] = useState(false);
     const [from_name, setFromName] = useState("")
     const [from_last, setFromLast] = useState("")
     const [message, setMessage] = useState("")
     const [email, setEmail] = useState("")
     const [category, setCategory] = useState("")
-    const [heard, setHeard] = useState("")
     const [phone, setPhone] = useState("")
     const [submit, setSubmit] = useState("Submit");
 
+    const closePopup = () => {
+        setPopupOpen(false);
+        window.location.reload()
+    };
 
     const handleSubmit = (event) => {
         event.preventDefault();
         setSubmit("Wait ...")
-        
+
         const sendEmail = (e) => {
             // Send mail here
             var templateParams = {
                 from_name: from_name + ' ' + from_last,
                 message: message,
                 from_email: email,
-                from_hear: heard,
                 from_potential: category,
                 from_phone: phone
             }
@@ -37,7 +39,10 @@ const FormCustom = () => {
                 .catch(function (error) {
                     console.log('FAILED...', error);
                 });
-        }; sendEmail();
+        }; 
+        sendEmail();
+        setPopupOpen(true);
+        // popup windows here
     }
 
 
@@ -61,17 +66,21 @@ const FormCustom = () => {
                         <option value="Potential Donor">Donor</option>
                         <option value="Other">Other</option>
                     </select>
-                    <select className='sl' id="heard about us" name="heard about us" onChange={(e) => setHeard(e.target.value)} form="contactForm">
-                        <option value="" disabled="" selected="">How did you hear about us?</option>
-                        <option value="TEJI's website">From TEJI's website</option>
-                        <option value="Online search">FrMan je vais revenri sur me Mackbook hein apparement mon lenovo la c'est un soucis de carte mere donc les gars disent ils vont faire venir une autre carte mere mais d'ici la je vais aller recuperer le mac me defendre avec ça om an online search</option>
-                        <option value="Article or video">From an article or video</option>
-                        <option value="Word of mouth">By word of mouth</option>
-                        <option value="Other">Other</option>
-                    </select>
                     <input type='tel' name='telephone' placeholder='Phone Number' onChange={(e) => setPhone(e.target.value)} required />
                     <textarea name='message' rows='7' placeholder='Drop your message' onChange={(e) => setMessage(e.target.value)} required />
-                    <button type='submit' className='btnStart'>{submit}</button>
+                    <button type='submit' className='btnStart'>Send</button>
+                    <div>
+
+                        {isPopupOpen && (
+                            <div className="popup">
+                                <div className="popup-content">
+                                    <h3>{from_name}</h3>
+                                    <p>Your message has been sent successfully and a representative will get in touch as soon as possible.</p>
+                                    <button className='back-red' onClick={closePopup}>Close</button>
+                                </div>
+                            </div>
+                        )}
+                    </div>
                 </form>
             </div>
         </>
