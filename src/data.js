@@ -96,10 +96,10 @@ export const programs = [
 export const testimonials = [
     {
         id: 1,
-        name: "Florence Najat",
+        name: "Abraham Yeli",
         quote: "This is a step in the right direction.  I want to show my kids that their father is going above and beyond in trying to come home, I went from solitary confinement to being in a College course for software development.  Who would have thought?",
         job: "Retrocube Technologies, Colorado, Uganda 🇺🇬",
-        avatar: require("./images/avatar2.webp")
+        avatar: require("./images/avatar4.png")
     },
     {
         id: 2,
@@ -113,13 +113,13 @@ export const testimonials = [
         name: "Angelo Mulit",
         quote: "I feel like I have a whole new area of jobs that I am qualified for and that is a wonderful new insight.",
         job: "Junior Web Engineer At BlueChip Solutions, Nairobi Kenya 🇰🇪",
-        avatar: require("./images/avatar3.png")
+        avatar: require("./images/avatar9.png")
     },
     {
         id: 4,
         name: "Jona Morison",
         quote: "Before I realized it I had my own website that I coded, built, and designed myself.",
         job: "Software Enginneer, Nairobi Kenya 🇰🇪",
-        avatar: require("./images/avatar2.png")
+        avatar: require("./images/avatar0.png")
     },
 ]
