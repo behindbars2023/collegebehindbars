@@ -282,6 +282,12 @@ section{
   background-color: red;
   color: white;
 }
+.i-c {
+  font-weight: bold;
+}
+.c-p {
+  margin-top: 1rem;
+}
 .popup h3 {
   margin-top: 0;
 }

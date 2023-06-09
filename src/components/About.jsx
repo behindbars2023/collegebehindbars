@@ -21,10 +21,11 @@ const About = () => {
                     <div className='about__section-content' id="about">
                         <h1> About Us</h1>
                         <p>
-                            CBB is A web development and career-readiness program for incarcerated Africans  taught by software engineers from Grassroot software academy in collaboration  with PhD students from Universities home and abroad, online and in-person, Together, our students develop skills in digital literacy, web design, and career-readiness, building web applications to help address some of society's most pressing issues. We currently work in three African countries with plans to scale.</p>
+                        CBB is a prison education initiative in computing. </p>
+                        <p>We train  incarcerated inmates in  African with marketable and employable skills high in demand in the global job market.</p>
                             <img src={abt1} className="img-custom" alt="" />                            
-                        <p>The idea behind this initiative  is to prepare the ‘less adequate’ for the world outside,
-                            to make inmates employable through  rehabilitation  and redirecting their paths towards social inclusion and  productivity,  contributing to the development of their societies and ipso facto enhancing the role of prisons in national development.</p>
+                        <i className='i-c'>Our believe is that bringing the  traditions of college into a prison is transformative. Giving the people within,  the opportunity to reinvent themselves and to change thier  life trajectory.</i>
+                        <p className='c-p'>making them highly employable home and abroad  upon release from prison thereby enhancing the role of prisons in national development.</p>
 
                     </div>
 
