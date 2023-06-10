@@ -22,7 +22,7 @@ const About = () => {
                         <h1> About Us</h1>
                         <p>
                         CBB is a prison education initiative in computing. </p>
-                        <p>We train  incarcerated inmates in  African with marketable and employable skills high in demand in the global job market.</p>
+                        <p>We train  incarcerated inmates in  Africa with marketable and employable skills high in demand in the global job market.</p>
                             <img src={abt1} className="img-custom" alt="" />                            
                         <i className='i-c'>Our believe is that bringing the  traditions of college into a prison is transformative. Giving the people within,  the opportunity to reinvent themselves and to change thier  life trajectory.</i>
                         <p className='c-p'>making them highly employable home and abroad  upon release from prison thereby enhancing the role of prisons in national development.</p>
