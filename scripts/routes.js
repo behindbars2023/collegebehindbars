@@ -4,5 +4,6 @@ import { Route } from "react-router";
 export default (
   <Route>
     <Route path="/" />
+    <Route path='/about-college'/>
   </Route>
 );
