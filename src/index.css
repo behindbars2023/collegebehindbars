@@ -140,7 +140,11 @@ section{
 .card2:hover h4{
   /* color: var(--color-gray-500); */
 }
-
+.v-bpi {
+  display: flex;
+  justify-content: center;
+  color: var(--color-orange);
+}
 .card2 span{
   width: 3rem;
   height: 3rem;
