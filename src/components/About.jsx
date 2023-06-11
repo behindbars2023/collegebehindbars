@@ -39,7 +39,7 @@ const About = () => {
                     <States />
 
                     <div className='about__section-content' id='curriculum'>
-                        <h1>CURRICULUM</h1>
+                        <h1>A World-Class Curriculum</h1>
                         <p>College behind Bars is designed to teach incarcerated students  the most in-demand skills in web development, developing thier technical skills, building projects, from simple scripts to full web apps and deployed systems, improving the skills they need to excel in the global job market. It has three main parts: core technical skills, career-readiness, and a capstone project.</p>
                         <img src={abt3} className="img-custom" alt="" /> 
                     </div>
