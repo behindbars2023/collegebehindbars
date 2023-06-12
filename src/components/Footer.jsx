@@ -20,7 +20,7 @@ const Footer = () => {
                 <a
                 className="a-d"
                     href={ExamplePdf}
-                    download="Example-PDF-document"
+                    download="Report-New-England-Commission-on-the-Future-of-Higher-Education-in-Prison"
                     target="_blank"
                     rel="noreferrer"
                 >
