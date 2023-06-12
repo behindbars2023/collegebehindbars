@@ -1,0 +1,415 @@
+* { 
+    box-sizing: border-box;
+} 
+
+.div-block-9 {
+    padding-left: 19%;
+}
+
+.accordion {
+    transition: ease-in-out 0.3s;
+    margin:  2rem 0 0 0;
+}
+
+.orig_content_no_diagonal { 
+    z-index: 105; 
+    width: 100%; 
+    position: relative;
+} 
+
+.orig_section_non_diagonal { 
+    position: relative;
+} 
+
+.orig_section_non_diagonal.very-light-blue { 
+    background-color: #f8faff;
+} 
+
+.orig_wrapper { 
+    position: relative; 
+    overflow: hidden;
+} 
+
+body { 
+    margin:    0; 
+    min-height:   100%; 
+    color:   #2c3340; 
+    background-color:   #fff; 
+    font-family:  'Montserrat', sans-serif;
+    font-size:   17px; 
+    line-height:   1.41em;
+} 
+
+html { 
+    -ms-text-size-adjust:  100%; 
+    -webkit-text-size-adjust:  100%; 
+    font-family:  sans-serif;
+    height: 100%;
+} 
+
+.w-container { 
+    max-width: 940px; 
+    margin-left: auto; 
+    margin-right: auto;
+} 
+
+.orig_container_2 { 
+    z-index: 100; 
+    width: 100%; 
+    max-width: 1140px; 
+    padding-left: 15px; 
+    padding-right: 15px; 
+    position: relative;
+} 
+
+.orig_container_2.hero_section { 
+    padding-top: 104px;
+} 
+
+.w-container:before,.w-container:after { 
+    content: " "; 
+    grid-area: 1/1/2/2; 
+    display: table;
+} 
+
+.w-container:after { 
+    clear: both;
+} 
+
+.div-block-7 { 
+    width: 100%; 
+    min-height: 48px; 
+    background-color: #6f23ff; 
+    align-items: center; 
+    display: flex; 
+    position: relative;
+} 
+
+.accordion-trigger { 
+    cursor: pointer; 
+    position: relative;
+} 
+
+.accordion-item { 
+    position: relative;
+} 
+
+.accordion-wrapper { 
+    margin-top: 34px; 
+    padding-top: 9px; 
+    padding-bottom: 18px; 
+    padding-left: 0;
+} 
+
+.div-block-12 { 
+    background-color: #fff; 
+    border-radius: 2px; 
+    box-shadow: 0 2px 14px rgba(181,181,181,.3);
+} 
+
+.orig_col_md_6 { 
+    max-width: 50%; 
+    padding-left: 15px; 
+    padding-right: 15px;
+} 
+
+.orig_col_md_6.no-padding-right { 
+    padding-right: 0;
+} 
+
+.orig_col_md_6.my-auto { 
+    margin-bottom: auto;
+} 
+
+.orig_col_md_6.my-auto.no-padding-right { 
+    flex: 1; 
+    padding-left: 35px;
+} 
+
+.no-margin { 
+    color: #3e396b; 
+    margin: 0;
+} 
+
+.orig_row { 
+    width: 100%; 
+    flex-wrap: wrap; 
+    margin-left: -15px; 
+    margin-right: -15px; 
+    display: flex;
+} 
+
+.orig_row.no-margin { 
+    align-items: flex-start; 
+    margin-left: 0; 
+    margin-right: 0;
+} 
+
+.orig_arrow_container_center { 
+    align-items: center; 
+    display: flex; 
+    position: absolute; 
+    top: 0%; 
+    bottom: 0%; 
+    left: 0%; 
+    right: auto;
+} 
+
+.orig_white_text { 
+    color: #fff; 
+    flex: 1; 
+    margin-left: 3px; 
+    padding-top: 6px; 
+    padding-bottom: 6px; 
+    padding-left: 58px; 
+    font-size: 18px; 
+    font-weight: 600; 
+    line-height: 1.2em;
+} 
+
+.orig_hours_container { 
+    width: 100%; 
+    max-width: 126px; 
+    color: #6f23ff; 
+    background-color: #fcfcfc; 
+    border-radius: 22px; 
+    margin-right: 20px; 
+    font-weight: 600;
+} 
+
+.down_arrow_white { 
+    width: 18px; 
+    height: 9px; 
+    background-image: url(https://assets-global.website-files.com/5dbb30f00775d4c32191a4df/5dc93b3411520e8064f248f6_group-27_7.svg); 
+    background-position: 50% 0; 
+    background-repeat: no-repeat; 
+    background-size: contain; 
+    margin-left: 23px; 
+    position: absolute; 
+    top: auto; 
+    bottom: auto; 
+    left: 0; 
+    right: auto; 
+    background-repeat-x: no-repeat; 
+    background-repeat-y: no-repeat;
+} 
+
+.down_arrow_purple { 
+    width: 9px; 
+    height: 18px; 
+    opacity: 0; 
+    background-image: url(https://assets-global.website-files.com/5dbb30f00775d4c32191a4df/5dc9656d11520e4b3ff47e12_group-27_6.svg); 
+    background-position: 0%; 
+    background-repeat: no-repeat; 
+    background-size: contain; 
+    margin-left: 23px; 
+    position: absolute; 
+    top: auto; 
+    bottom: auto; 
+    left: 0; 
+    right: auto; 
+    background-repeat-x: no-repeat; 
+    background-repeat-y: no-repeat;
+} 
+
+
+/* These were inline style tags. Uses id+class to override almost everything */
+#style-4whSG.style-4whSG {  
+   background-color: rgb(111, 35, 255);  
+    /* width: 510px;   */
+    height: 67px;  
+}  
+#style-T4qWc.style-T4qWc {  
+   width: 9px;  
+}  
+#style-r4gay.style-r4gay {  
+   opacity: 1;  
+}  
+#style-1vaCT.style-1vaCT {  
+   opacity: 0;  
+}  
+#style-s4lS4.style-s4lS4 {  
+   color: rgb(255, 255, 255);  
+}  
+#style-5UBGB.style-5UBGB {  
+   background-color: rgb(252, 252, 252);  
+    color: rgb(111, 35, 255);  
+}  
+
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap'); 
+* { 
+    box-sizing: border-box;
+} 
+
+.orig_content_no_diagonal { 
+    z-index: 105; 
+    width: 100%; 
+    position: relative;
+} 
+
+.orig_section_non_diagonal { 
+    position: relative;
+} 
+
+.orig_section_non_diagonal.very-light-blue { 
+    background-color: #f8faff;
+} 
+
+.orig_wrapper { 
+    position: relative; 
+    overflow: hidden;
+} 
+
+body { 
+    margin:    0; 
+    min-height:   100%; 
+    color:   #2c3340; 
+    background-color:   #fff; 
+    font-family:  'Montserrat', sans-serif;
+    font-size:   17px; 
+    line-height:   1.41em;
+} 
+
+html { 
+    -ms-text-size-adjust:  100%; 
+    -webkit-text-size-adjust:  100%; 
+    font-family:  sans-serif;
+    height: 100%;
+} 
+
+.w-container { 
+    max-width: 940px; 
+    margin-left: auto; 
+    margin-right: auto;
+} 
+
+.orig_container_2 { 
+    z-index: 100; 
+    width: 100%; 
+    max-width: 1140px; 
+    padding-left: 15px; 
+    padding-right: 15px; 
+    position: relative;
+} 
+
+.orig_container_2.hero_section { 
+    padding-top: 104px;
+} 
+
+.w-container:before,.w-container:after { 
+    content: " "; 
+    grid-area: 1/1/2/2; 
+    display: table;
+} 
+
+.w-container:after { 
+    clear: both;
+} 
+
+.orig_h2_container_yello { 
+    max-width: 75%; 
+    margin-left: auto; 
+    margin-right: auto; 
+    padding-left: 15px; 
+    padding-right: 15px; 
+    position: relative;
+} 
+
+.div-block-13 { 
+    margin-top: 14px; 
+    margin-bottom: 14px;
+} 
+
+.accordion-item-content { 
+    background-color: #f7f3ff; 
+    margin-top: -11px; 
+    margin-bottom: 10px; 
+    margin-left: -6px; 
+    padding-left: 67px; 
+    overflow: hidden;
+} 
+
+.accordion-item { 
+    position: relative;
+} 
+
+.accordion-wrapper { 
+    margin-top: 34px; 
+    padding-top: 9px; 
+    padding-bottom: 18px; 
+    padding-left: 0;
+} 
+
+.div-block-12 { 
+    background-color: #fff; 
+    border-radius: 2px; 
+    box-shadow: 0 2px 14px rgba(181,181,181,.3);
+} 
+
+.orig_col_md_6 { 
+    max-width: 50%; 
+    padding-left: 15px; 
+    padding-right: 15px;
+} 
+
+.orig_col_md_6.no-padding-right { 
+    padding-right: 0;
+} 
+
+.orig_col_md_6.my-auto { 
+    margin-bottom: auto;
+} 
+
+.orig_col_md_6.my-auto.no-padding-right { 
+    flex: 1; 
+    padding-left: 35px;
+} 
+
+.no-margin { 
+    color: #3e396b; 
+    margin: 0;
+} 
+
+.orig_row { 
+    width: 100%; 
+    flex-wrap: wrap; 
+    margin-left: -15px; 
+    margin-right: -15px; 
+    display: flex;
+} 
+
+.orig_row.no-margin { 
+    align-items: flex-start; 
+    margin-left: 0; 
+    margin-right: 0;
+} 
+
+.div-block-9 { 
+    justify-content: space-between; 
+    margin-bottom: 8px; 
+    margin-right: 20px; 
+    display: flex;
+} 
+
+.accordion-trigger { 
+    cursor: pointer; 
+    position: relative;
+} 
+
+.orig_spacer { 
+    height: 18px;
+} 
+
+.orig_text_curricilum { 
+    color: #3e396b; 
+    align-self: center; 
+    font-size: 15px; 
+    font-weight: 600;
+} 
+
+
+/* These were inline style tags. Uses id+class to override almost everything */
+#style-v5KjS.style-v5KjS {  
+   width: 515px;  
+}  

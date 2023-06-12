@@ -53,7 +53,7 @@
 /* PROGRAMS */
 
 .programs{
-    margin-top: 4rem;
+    margin-top: 1rem;
     padding: 3rem;
     background-color: #ffffff;
 }
@@ -107,7 +107,7 @@ input,textarea{
 
 /* SPONSORS */
 .sponsors {
-    margin: 5rem 1rem 1rem 1rem;
+    margin: 2rem 1rem 1rem 1rem;
     padding: 1.4rem 1.2rem;
     border-radius: 10px;
     display: grid;
