@@ -5,21 +5,24 @@ import { links } from '../data'
 import {GoThreeBars} from 'react-icons/go'
 import {MdOutlineClose} from 'react-icons/md'
 import "./navbar.css"
- 
+import pdfUrl from '../images/Report_New_England_Commission_on_the_Future_of_Higher_Education.pdf';
+
+
 const Navbar = () => {
   const [isNavShowing, setIsNavShowing] = useState(false);
 
   // method to jump to the desired element by using the element's id
 const jumpToReleventDiv = (id) => {
-  const releventDiv = document.getElementById(id);
-  // behavior: "smooth" parameter for smooth movement
-  releventDiv.scrollIntoView({behavior: "smooth"});
-  setIsNavShowing(prev => !prev)
+  if (id != "download") {
+    const releventDiv = document.getElementById(id);
+    // behavior: "smooth" parameter for smooth movement
+    releventDiv.scrollIntoView({behavior: "smooth"});
+    setIsNavShowing(prev => !prev)
+  } else {
+    window.open(pdfUrl, '_blank');
+  }
 }
 
-  function func(path) { 
-    document.querySelector(`${path}`).scrollIntoView()
-   }
 
   return (
     <nav>

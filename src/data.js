@@ -32,8 +32,8 @@ export const links = [
         path: "programs"
     },
     {
-        name: "Partners",
-        path: "partners"
+        name: "Downloads",
+        path: "download"
     },
     {
         name: "Testimonials",

@@ -2,10 +2,10 @@ import React, { useState } from 'react';
 import './stack.css';
 
 function Accordion({ title, content }) {
-    const [isOpen, setIsOpen] = useState(false);
+    const [isOpen, setIsOpen] = useState(true);
 
     const toggleAccordion = () => {
-        setIsOpen(!isOpen);
+        // setIsOpen(!isOpen);
     };
 
     return (
