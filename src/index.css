@@ -43,7 +43,7 @@ html{
 }
 
 .container{
-  width: var(--container-width-lg);
+  /* width: var(--container-width-lg); */
   margin-inline: auto;
   max-width: 1920px;
 }
@@ -62,7 +62,7 @@ a{
   transition: var(--transition);
 }
 .nav-li {
-  font-size: 1rem;
+  font-size: 0.9rem;
   cursor: pointer;
 }
 .payment_a{
@@ -83,7 +83,7 @@ img{
 }
 
 section{
-  margin-top: 7rem;
+  margin-top: 1rem;
 }
 
 .section__head h3{
@@ -352,6 +352,13 @@ section{
   }
   .header__content{
       width: 76%;
+  }
+  .nav-li {
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  section {
+    margin-top: 7rem;
   }
 }
 
