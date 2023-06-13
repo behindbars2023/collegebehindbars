@@ -30,7 +30,7 @@ const HowItWorks = () => {
                         <h1>How It Works.</h1><br></br>
                             <p>During the full-time technical curriculum, student inmates 
                                 spend 6 to 9 months learning the most in-demand skills in 
-                                web development, developing thier technical skills, 
+                                web development, developing their technical skills, 
                                 building projects, from simple scripts to full web apps 
                                 and deployed systems, improving the skills they need to 
                                 excel in the global job market.

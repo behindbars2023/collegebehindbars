@@ -53,10 +53,10 @@ const AboutCollege = () => {
                         <States />
 
                         <h1 className="sub_heading">CURRICULUM</h1>
-                        <p>College behind Bars is designed to teach incarcerated students  the most in-demand skills in web development, developing thier technical skills, building projects, from simple scripts to full web apps and deployed systems, improving the skills they need to excel in the global job market. It has three main parts: core technical skills, career-readiness, and a capstone project.</p>
+                        <p>College behind Bars is designed to teach incarcerated students  the most in-demand skills in web development, developing their technical skills, building projects, from simple scripts to full web apps and deployed systems, improving the skills they need to excel in the global job market. It has three main parts: core technical skills, career-readiness, and a capstone project.</p>
 
                         <h3 className="sub_heading">Core technical skills</h3>
-                        <p>During the full-time technical curriculum, student inmates spend 6 to 9 months learning the most in-demand skills in web development, developing thier technical skills, building projects, from simple scripts to full web apps and deployed systems, improving the skills they need to excel in the global job marke</p>
+                        <p>During the full-time technical curriculum, student inmates spend 6 to 9 months learning the most in-demand skills in web development, developing their technical skills, building projects, from simple scripts to full web apps and deployed systems, improving the skills they need to excel in the global job marke</p>
 
                         <h3 className="sub_heading">Career-readiness</h3>
                         <p>The class includes dedicated lectures on CV writing, presentation and public speaking. Students are also introduced to relevant technology-facing career paths by guest lecturers. They  learn where to find jobs, how to do great interviews, and the best strategies to launch your career.</p>

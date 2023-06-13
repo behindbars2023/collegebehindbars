@@ -37,7 +37,7 @@ const Sponsore = () => {
                     <br />
                     <p>We  solicit support from agencies, companies and individuals.</p>
                     <br />
-                    <p>Our dream is for  a day where no one in Africa will lack access to high quality technical education no matter thier situation in life.</p>
+                    <p>Our dream is for  a day where no one in Africa will lack access to high quality technical education no matter their situation in life.</p>
                     <br />
                     <h5>And your support fuels the Effort </h5>
                 </div>
