@@ -71,7 +71,11 @@ a{
 a:hover{
   color: #ff8716;
 }
-
+.source_link {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
 img{
   display: block;
   width: 100%;

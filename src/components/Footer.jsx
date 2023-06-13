@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom"
 import Logo from '../images/logo.png'
+import { FaTwitter, FaLinkedin } from 'react-icons/fa';
 import ExamplePdf from '../images/Report_New_England_Commission_on_the_Future_of_Higher_Education.pdf';
 
 const Footer = () => {
@@ -18,7 +19,7 @@ const Footer = () => {
                 </article>
 
                 <a
-                className="a-d"
+                    className="a-d"
                     href={ExamplePdf}
                     download="Report-New-England-Commission-on-the-Future-of-Higher-Education-in-Prison"
                     target="_blank"
@@ -31,6 +32,14 @@ const Footer = () => {
                     <h4> Contact Us</h4>
                     <a href='mailto:Management@collegebehindbars.org' target='_blank' rel='noreferrer noopener'>Send Us A Mail</a>
                 </article>
+                <div className="source_link">
+                    <a href="https://www.linkedin.com/company/college-behind-bars/" target="_blank" rel="noopener noreferrer">
+                        <FaTwitter size={32} />
+                    </a>
+                    <a href="https://www.linkedin.com/company/college-behind-bars/" target="_blank" rel="noopener noreferrer">
+                        <FaLinkedin size={32} />
+                    </a>
+                </div>
             </div>
             <div className="footer__copyright">
                 <small>CBB Theme Powered by: Grassroot Software Academy</small>
