@@ -76,6 +76,13 @@ a:hover{
   justify-content: center;
   gap: 2rem;
 }
+#download {
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
 img{
   display: block;
   width: 100%;

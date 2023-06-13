@@ -19,7 +19,11 @@ const jumpToReleventDiv = (id) => {
     releventDiv.scrollIntoView({behavior: "smooth"});
     setIsNavShowing(prev => !prev)
   } else {
-    window.open(pdfUrl, '_blank');
+    const releventDiv = document.getElementById(id);
+    // behavior: "smooth" parameter for smooth movement
+    releventDiv.scrollIntoView({behavior: "smooth"});
+    setIsNavShowing(prev => !prev)
+    // window.open(pdfUrl, '_blank');
   }
 }
 

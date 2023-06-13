@@ -19,13 +19,14 @@ const Footer = () => {
                 </article>
 
                 <a
+                id="download"
                     className="a-d"
                     href={ExamplePdf}
                     download="Report-New-England-Commission-on-the-Future-of-Higher-Education-in-Prison"
                     target="_blank"
                     rel="noreferrer"
                 >
-                    Click here to download the Report-New-England-Commission-on-the-Future-of-Higher-Education-in-Prison.pdf
+                    Click here to download the  New England Commission on the future of Higher education
                 </a>
 
                 <article>
