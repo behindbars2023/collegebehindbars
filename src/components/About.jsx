@@ -29,7 +29,7 @@ const About = () => {
                         <p>They owe us nothing until they get a job and decide  to donate</p>
                         <img src={abt1} className="img-custom" alt="" />
                         <i className='i-c'>Our believe is that bringing the  traditions of college into a prison is transformative. Giving the people within,  the opportunity to reinvent themselves and to change their life trajectory.</i>
-                        <p className='c-p'>making them highly employable home and abroad  upon release from prison thereby enhancing the role of prisons in national development.</p>
+                        <p className='c-p'>making them highly employable home and abroad thereby enhancing the role of prisons in national development.</p>
 
                     </div>
 
