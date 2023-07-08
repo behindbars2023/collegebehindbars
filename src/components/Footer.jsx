@@ -26,7 +26,7 @@ const Footer = () => {
                     target="_blank"
                     rel="noreferrer"
                 >
-                    Click here to download the  New England Commission on the future of Higher education
+                    Click here to download the  New England Commission Report  on the future of Higher education in Prisons
                 </a>
 
                 <article>

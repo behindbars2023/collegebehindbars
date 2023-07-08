@@ -8,7 +8,7 @@ const States = () => {
                     <div className="item">
                         <h4>In the last 40 years, the</h4>
                         <h4>number of incarcerated</h4>
-                        <h4>people has increased by</h4>
+                        <h4>people in Africa has increased by</h4>
                         <h1>450%</h1>
                     </div>
                     <div className="item">
