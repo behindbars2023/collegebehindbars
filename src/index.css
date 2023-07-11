@@ -259,6 +259,11 @@ section{
 }
 
 /* SAMPLE */
+
+.a-sample {
+  color: #ff8716;
+}
+
 .sample {
   margin: 4rem 0;
   padding-left: 0;

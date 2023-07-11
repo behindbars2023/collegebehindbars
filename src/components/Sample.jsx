@@ -70,7 +70,7 @@ const Sample = () => {
                                 </a>
                                 <div class="portfolio-caption snipcss0-4-16-22">
                                     <div class="portfolio-caption-heading snipcss0-5-22-23">An awesome online library app</div>
-                                    {/* <div class="portfolio-caption-subheading text-muted snipcss0-5-22-24">Click here to visit the website</div> */}
+                                    <div class="portfolio-caption-subheading text-muted snipcss0-5-32-34"><a className='a-sample' href="https://gregolive.github.io/library/?title=&author=&pages=">Click here to visit this page</a></div>
                                 </div>
                             </div>
                         </div>
@@ -86,7 +86,7 @@ const Sample = () => {
                                 </a>
                                 <div class="portfolio-caption snipcss0-4-26-32">
                                     <div class="portfolio-caption-heading snipcss0-5-32-33">Admin Dashboard</div>
-                                    {/* <div class="portfolio-caption-subheading text-muted snipcss0-5-32-34">Click here to visit website</div> */}
+                                    <div class="portfolio-caption-subheading text-muted snipcss0-5-32-34"><a className='a-sample' href="https://purpett.github.io/admin-dashboard/">Click here to visit this page</a></div>
                                 </div>
                             </div>
                         </div>
@@ -118,7 +118,7 @@ const Sample = () => {
                                 </a>
                                 <div class="portfolio-caption snipcss0-4-26-32">
                                     <div class="portfolio-caption-heading snipcss0-5-32-33">Online  Calculator</div>
-                                    {/* <div class="portfolio-caption-subheading text-muted snipcss0-5-32-34">Click here to visit website</div> */}
+                                    <div class="portfolio-caption-subheading text-muted snipcss0-5-32-34"><a className='a-sample' href="https://michalosman.github.io/calculator/">Click here to visit this page</a></div>
                                 </div>
                             </div>
                         </div>
