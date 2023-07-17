@@ -126,7 +126,7 @@ section{
 .img-custom-border {
   max-width: 300px;
   border-radius: 20px;
-  margin: 2rem 0 0.3rem 0;
+  margin: 1rem 0 1rem 0;
 }
 
 .h1-custom-color{
@@ -154,7 +154,8 @@ section{
 .v-bpi {
   display: flex;
   justify-content: center;
-  color: var(--color-orange);
+  color: #ff8716;
+  margin: 1rem 0 0 0;
 }
 .a-d {
   text-decoration: underline;

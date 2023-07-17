@@ -12,6 +12,7 @@ import Sponsore from "./Sponsore";
 import Programs from "./Programs"
 import Donate from "./Donate"
 import Footer from "./Footer"
+import Missions from "./Missions";
 
 const Home = () => {
     return (
@@ -23,6 +24,7 @@ const Home = () => {
             <Sample />
             <Programs />
             {/* <Challenges /> */}
+            <Missions />
             <Partners />
             <Testimonials />
             <Sponsore />

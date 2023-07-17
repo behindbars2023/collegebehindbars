@@ -9,20 +9,22 @@ const Sponsore = () => {
     return (
         <>
             <div className="sponsors" id='sponsors'>
-                <h1>SPONSORS</h1>
+                <h1>MENTORS</h1>
                 <div className="sponsors_logos">
                 </div>
                 <div className='sponsors_description'>
-                    <p>We are incredibly grateful for our sponsors, who make our work possible. For Now, Grassroot Academy  and The PBS learning foundation are the only support systems we have  without which our work will not be possible </p>
-                    <div className='sponsors-img'>        
+                    <p>We are incredibly grateful to our Mentors  who make our work possible.</p>
+                    <br /><br />
+                    <div className='sponsors-img'>   
+                        <h3>GRASSROOT ACADEMY</h3>     
                         <img src={logo1} className="img-custom-border" alt="" />
-                        <a target="_blank" className='v-bpi' href="https://grassroot.academy/">visit Grassroot</a>
+                        <p>The Grassroot Academy is our support system without which our work will not be possible. Grassroot provide access to a world class  curriculum and much needed academic support. </p>
+                        <a target="_blank" className='v-bpi' href="https://grassroot.academy/">Click here to Learn more about Grassroot</a>
 
-                        <img src={logo2} className="img-custom-border" alt="" />
-                        <a target="_blank"  className='v-bpi' href="https://www.pbs.org/show/college-behind-bars/">visit PBS</a>
-
+<br /><br />
+                        <h3>BARD PRISON INITIATIVE</h3>
                         <img src={spon} className="img-custom-border" alt="" />
-                        <a target="_blank"  className='v-bpi' href="https://bpi.bard.edu/">visit BPI</a>
+                        <p>BPI is the source of the inspiration to this initiative, through which we continue to grow innovatively. We are exceededingly grateful to BPI for thier continous investment in people,  reinventing  institutions and making genuine education more accessible. </p>
                     </div>
 
                     <div className='react-player'>
@@ -33,9 +35,7 @@ const Sponsore = () => {
                             height='100%'
                         />
                     </div>
-
-                    <br />
-                    <p>We  solicit support from agencies, companies and individuals.</p>
+                        <a target="_blank"  className='v-bpi' href="https://bpi.bard.edu/">Click here to learn more about BPI </a>
                     <br />
                     <p>Our dream is for  a day where no one in Africa will lack access to high quality technical education no matter their situation in life.</p>
                     <br />
