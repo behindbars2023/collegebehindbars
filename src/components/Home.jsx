@@ -26,7 +26,7 @@ const Home = () => {
             {/* <Challenges /> */}
             <Missions />
             <Partners />
-            <Testimonials />
+            {/* <Testimonials /> */}
             <Sponsore />
             <FormCustom />
             <Footer />            

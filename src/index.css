@@ -259,6 +259,53 @@ section{
   }
 }
 
+
+/* TEAM */
+
+.team_cta {
+  margin: 2rem 0 0 0;
+}
+
+.team_item {
+  display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.team_cta_item {  
+  margin: 1rem 0;
+}
+.team_cta_item p {
+  font-size: 0.9rem;
+}
+
+.team_cta_item img {
+  width: 35vh;
+  border-radius: 20px;
+  margin: 1rem 0;
+}
+
+
+@media screen and (max-width: 750px) {
+  .team_item {
+    display: grid;
+      grid-template-columns: 1fr;
+      gap: 0;
+    justify-content: center;
+    align-items: center;
+  }
+  .team_cta_item img {
+    width: 25vh;
+    border-radius: 20px;
+    margin: 1rem 0;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+}
+
 /* SAMPLE */
 
 .a-sample {
