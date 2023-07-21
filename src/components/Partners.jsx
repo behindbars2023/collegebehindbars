@@ -16,7 +16,7 @@ const Partners = () => {
                 </div> */}
                 <div className='partners_cta sponsors_description'>
                     <h3>OUR TEAM</h3>
-                    <p>College Behind Bars was launched by Engr Sampson, Marisa, Dr David, and Engr Abha in September 2021 Since then, we have been joined by a dozen affiliates who instruct and coach students.</p>
+                    <p>College Behind Bars was launched by Engr Sampson, Marisa, Dr David, and Engr Abha in September 2021 Since then, we have been joined by a dozen affiliates who volunteer to instruct and coach student inmates.</p>
                 </div>
 
                 <div className='team_cta sponsors_description'>
