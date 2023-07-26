@@ -24,7 +24,7 @@ const Sponsore = () => {
 <br /><br />
                         <h3>BARD PRISON INITIATIVE</h3>
                         <img src={spon} className="img-custom-border" alt="" />
-                        <p>BPI is the source of the inspiration to this initiative, through which we continue to grow innovatively. We are exceededingly grateful to BPI for thier continous investment in people,  reinventing  institutions and making genuine education more accessible. </p>
+                        <p>BPI is the source of Our inspiration. We are exceededingly grateful to BPI for thier continous investment in people,  reinventing  institutions and making genuine education more accessible. </p>
                     </div>
 
                     <div className='react-player'>
@@ -37,9 +37,9 @@ const Sponsore = () => {
                     </div>
                         <a target="_blank"  className='v-bpi' href="https://bpi.bard.edu/">Click here to learn more about BPI </a>
                     <br />
-                    <p>Our dream is for  a day where no one in Africa will lack access to high quality technical education no matter their situation in life.</p>
+                    <p> Our believe is that bringing the  traditions of college into a prison is transformative. Giving the people within,  the opportunity to reinvent themselves, to change their life trajectory and contribute to society..</p>
                     <br />
-                    <h5>And your support fuels the Effort </h5>
+                    <h5> your support fuels the Effort </h5>
                 </div>
             </div>
         </>
