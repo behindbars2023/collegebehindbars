@@ -16,7 +16,7 @@ const About = () => {
                     <h3>Prisons may seem designed to strip inhabitants of their humanity, but some individuals discover new hope and strength during their incarceration</h3>
                 </div>
 
-                {/* <div className='container about__Vision-container'>
+                 <div className='container about__Vision-container'>
 
                     <div className='about__section-content' id="about">
                         <h1> About Us</h1>
@@ -61,7 +61,7 @@ const About = () => {
                     <div className='abt_img about__Vision-image'>
                         <img className='abt-image-first' src={AboutUsImage1} alt='About Us' />
                     </div>
-                </div> */}
+                </div> 
             </section>
         </>
     )
