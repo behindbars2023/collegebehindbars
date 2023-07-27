@@ -34,7 +34,7 @@ export const links = [
     {
         name: "Downloads",
         path: "download"
-    },
+    },/*
     {
         name: "Testimonials",
         path: "testimonials"
@@ -42,7 +42,7 @@ export const links = [
     {
         name: "Sponsors",
         path: "sponsors"
-    },
+    },*/
     {
         name: "Contact Us",
         path: "contact"
