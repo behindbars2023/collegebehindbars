@@ -8,7 +8,7 @@ import ReactPlayer from "react-player"
 const Sponsore = () => {
     return (
         <>
-            <div className="sponsors" id='sponsors'>
+          /*  <div className="sponsors" id='sponsors'>
                 <h1>MENTORS</h1>
                 <div className="sponsors_logos">
                 </div>
@@ -25,7 +25,7 @@ const Sponsore = () => {
                         <h3>BARD PRISON INITIATIVE</h3>
                         <img src={spon} className="img-custom-border" alt="" />
                         <p>BPI is the source of Our inspiration. We are exceededingly grateful to BPI for thier continous investment in people,  reinventing  institutions and making genuine education more accessible. </p>
-                    </div>
+                    </div> */
 
                     <div className='react-player'>
                         <ReactPlayer
@@ -38,9 +38,9 @@ const Sponsore = () => {
                         <a target="_blank"  className='v-bpi' href="https://bpi.bard.edu/">Click here to learn more about BPI </a>
                     <br />
                     <p> Our believe is that bringing the  traditions of college into a prison is transformative. Giving the people within,  the opportunity to reinvent themselves, to change their life trajectory and contribute to society..</p>
-                    <br />
+                    <br /> /*
                     <h5> your support fuels the Effort </h5>
-                </div>
+                </div> */
             </div>
         </>
     )
