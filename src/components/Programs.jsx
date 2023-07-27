@@ -10,7 +10,12 @@ const Programs = () => {
     return (
         <section className='programs'>
             <div className='container programs_container' id='programs'>
-                <SectionHead icon={<GiGraduateCap />} title="Our team curates a curriculum that helps students learn the most in-demand skills in web development so they  can get a great job, no matter where they  live." />
+                <SectionHead icon={<GiGraduateCap />} title="During the full-time technical curriculum, student inmates 
+                                spend 6 to 9 months learning the most in-demand skills in 
+                                web development, developing their technical skills, 
+                                building projects, from simple scripts to full web apps 
+                                and deployed systems, improving the skills they need to 
+                                excel in the global job market" />
 
                 {/* <div className='programs__wrapper'>
                     {
