@@ -13,7 +13,7 @@ const Sample = () => {
             <div className='sample-cta'>
                 <div class="container snipcss0-0-0-1 snipcss-183si style-qhdC9 sample" id="style-qhdC9">
                 <div class="text-box-custom">
-                        <p>After returning home, CBB alumni become independent taxpaying citizens. They work  in tech companies home and abroad; they attend graduate schools.  Virtually none return to prison. They contribute to their communities in all the ways one might expect of any college graduate.</p>
+                        <p>Our believe is that bringing the  traditions of college into a prison is transformative. Giving the people within,  the opportunity to reinvent themselves and to change their life trajectory.</p>
                         <br />
                     </div>
                     <div class="text-center snipcss0-1-1-2">
