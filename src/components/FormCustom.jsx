@@ -63,7 +63,7 @@ const FormCustom = () => {
                         <option value="Potential Student">Student</option>
                         <option value="Potential Instructor">Instructor</option>
                         <option value="Potential Partner">Partner</option>
-                        <option value="Potential Donor">Donor</option>
+                        
                         <option value="Other">Other</option>
                     </select>
                     <input type='tel' name='telephone' placeholder='Phone Number' onChange={(e) => setPhone(e.target.value)} required />
