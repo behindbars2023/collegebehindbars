@@ -43,7 +43,8 @@ const Footer = () => {
                 </div>
             </div>
             <div className="footer__copyright">
-                <small>CBB Theme Powered by: Grassroot Software Academy</small>
+                <small>&copy; 2023 COLLEGE BEHIND BARS LBG 
+ALL RIGHTS RESERVED </small>
             </div>
         </footer>
     )
