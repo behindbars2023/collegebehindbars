@@ -50,7 +50,7 @@ const FormCustom = () => {
         <>
             <div className="p-form" id='contact'>
                 <div className="form-head">
-                    <h2> College Behind Bars is still at infancy. In a short time, we shall begin operations in Africa</h2>
+                    <h2> College Behind Bars is still at infancy. In a short time, we shall begin operations in Africa</h2> <br> <br> 
                     <h1>CONTACT US</h1>
                     <h4>We would love to hear from you! </h4>
                     <p>Fill out the form below, or contact us directly at the email given below  and a representative will get in touch </p>
